@@ -39,7 +39,7 @@
                 class="form-control search-query"
                 id="project-searchInput"
                 type="text" />
-              <button type="submit" class="btn  btn-outline-secondary">
+              <button type="submit" class="btn btn-outline-secondary">
                 <i class="fa fa-search"></i>
               </button>
             </div>

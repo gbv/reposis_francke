@@ -4,16 +4,55 @@
     <section xml:lang="de" title="Impressum">
         <div class="row">
             <div class="col-md-12" lang="de">
-                <h1>Impressum</h1>
-                <p>
-                    Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur
-                    Anbieterkennzeichnung, sowie wichtige rechtliche Hinweise zur Internetpräsenz der ...
-                </p>
 
-                <h2>Anbieter</h2>
-                <p>
-                    Anbieter dieser Internetpräsenz ist im Rechtssinne ...
-                </p>
+              <h1>Impressum</h1>
+              <h2>Anbieter</h2>
+              <p>
+                Anbieter dieser Internetpräsenz sind im Rechtssinne die Franckeschen
+                Stiftungen zu Halle, Stiftung des öffentlichen Rechts, eingetragen in das
+                Stiftungsregister des Landes Sachsen-Anhalt.
+              </p>
+              <p>
+                Franckesche Stiftungen<br />
+                Franckeplatz 1, Haus 37<br />
+                06110 Halle an der Saale<br />
+                Tel: +49(0)345-2127 400<br />
+                Fax: +49(0)345-2127 433<br />
+                E-Mail: oeffentlichkeit(at)francke-halle.de<br />
+                Domain:
+                <a heref="https://www.francke-halle.de">
+                  https://www.francke-halle.de
+                </a>
+              </p>
+
+              <h2>Vertreter</h2>
+              <p>
+                Die Franckeschen Stiftungen werden vertreten durch ihre Direktorin Dr. Marianne Schröter.
+              </p>
+
+              <h2>Redaktion</h2>
+              <p>
+                Franckesche Stiftungen<br />
+                Abteilung Veröffentlichungen<br />
+                Franckeplatz 1, Haus 37<br />
+                06110 Halle an der Saale<br />
+                Tel: +49(0)345-2127 499<br />
+                E-Mail: verlag(at)francke-halle.de
+              </p>
+
+
+              <h2>Technischer Betrieb</h2>
+              <p>
+                Verbundzentrale des GBV (VZG)<br />
+                Platz der Göttinger Sieben 1<br />
+                D-37073 Göttingen<br /><br />
+                E-Mail: dms-list(at)lists.gbv.de<br />
+                Domain:
+                <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
+                  https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
+                </a>
+              </p>
+
             </div>
         </div>
     </section>
