@@ -5,49 +5,103 @@
   <section title="Willkommen bei MIR!" xml:lang="de">
     <div class="jumbotwo"></div>
 
-    <div class="project-center-content">
-      <div class="project-intro">
-        <div class="project-intro__image">
-          <div>
-            <img
-              aria-hidden="true"
-              src="../images/waisenhaus.jpg"
-              alt="" />
-          </div>
-        </div>
-        <div class="project-intro__text">
-          <h1>Die Digitalen Publikationen der Franckeschen Stiftungen</h1>
-          <p>
-            Willkommen bei den Digitalen Publiaktionen der Franckeschen Stiftungen.
-            Hier werden multimediale Online-Veröffentlichungen der
-            Franckeschen Stiftungen sowie Publikationen des Verlages der
-            Franckeschen Stiftungen aus unseren Reihen "Hallesche Forschungen",
-            "Neue Hallesche Berichte", "Kleine Texte", "Kleine Schriften",
-            "Hallesche Quellenpublikationen und Repertorien" und von unseren
-            Ausstellungskatalogen zur freien Nachnutzung angeboten.
-          </p>
-
-          <form
-            action="../servlets/solr/findPublic"
-            id="project-searchMainPage"
-            class="form-inline d-flex justify-content-center mt-5"
-            role="search">
-            <div class="input-group input-group-lg">
-              <input
-                name="condQuery"
-                placeholder="Suche in x Dokumenten"
-                class="form-control search-query"
-                id="project-searchInput"
-                type="text" />
-              <button type="submit" class="btn btn-outline-secondary">
-                <i class="fa fa-search"></i>
-              </button>
-            </div>
-          </form>
-
+    <div class="project-intro">
+      <div class="project-intro__image">
+        <div>
+          <img
+            aria-hidden="true"
+            src="../images/waisenhaus.jpg"
+            alt="" />
         </div>
       </div>
+      <div class="project-intro__text">
+        <h1>Die Digitalen Publikationen der Franckeschen Stiftungen</h1>
+        <p>
+          Willkommen bei den Digitalen Publiaktionen der Franckeschen Stiftungen.
+          Hier werden multimediale Online-Veröffentlichungen der
+          Franckeschen Stiftungen sowie Publikationen des Verlages der
+          Franckeschen Stiftungen aus unseren Reihen "Hallesche Forschungen",
+          "Neue Hallesche Berichte", "Kleine Texte", "Kleine Schriften",
+          "Hallesche Quellenpublikationen und Repertorien" und von unseren
+          Ausstellungskatalogen zur freien Nachnutzung angeboten.
+        </p>
+
+        <form
+          action="../servlets/solr/findPublic"
+          id="project-searchMainPage"
+          class="form-inline d-flex justify-content-center mt-5"
+          role="search">
+          <div class="input-group input-group-lg">
+            <input
+              name="condQuery"
+              placeholder="Suche in x Dokumenten"
+              class="form-control search-query"
+              id="project-searchInput"
+              type="text" />
+            <button type="submit" class="btn btn-outline-secondary">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </form>
+
+      </div>
     </div>
+
+    <div class="project-content">
+      <div class="project-content__text">
+        <h2>Ein anderer Text</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus
+          viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in
+          dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi
+          bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo
+          a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id
+          semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula
+          ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum
+          suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut.
+          Consequat ac felis donec et odio pellentesque diam.
+        </p>
+      </div>
+      <div class="project-content__links">
+        <h2>Weitere Recherche</h2>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              href="https://digital.francke-halle.de/">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Digitale Sammlungen
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://studio.francke-halle.de/pages/home.php">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Bilddatenbank
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://opac.lbs-halle.gbv.de/DB=5/">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Online-Katalog der Bibliothek
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://archiv.francke-halle.de/start.fau?prj=ifaust8_afst">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              Archivdatenbank
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
 
 
 
