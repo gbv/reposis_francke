@@ -54,6 +54,9 @@ local.properties
 .loadpath
 .recommenders
 
+# visual studi code
+*.code-workspace
+
 # Eclipse Core
 .project
 
@@ -166,4 +169,3 @@ $RECYCLE.BIN/
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
-

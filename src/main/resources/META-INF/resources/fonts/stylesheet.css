@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Fleischman BT Pro';
+    src: url('FleischmanBTPro-Regular.eot');
+    src: url('FleischmanBTPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FleischmanBTPro-Regular.woff2') format('woff2'),
+        url('FleischmanBTPro-Regular.woff') format('woff'),
+        url('FleischmanBTPro-Regular.ttf') format('truetype'),
+        url('FleischmanBTPro-Regular.svg#FleischmanBTPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fleischman BT Pro';
+    src: url('FleischmanBTPro-Bold.eot');
+    src: url('FleischmanBTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FleischmanBTPro-Bold.woff2') format('woff2'),
+        url('FleischmanBTPro-Bold.woff') format('woff'),
+        url('FleischmanBTPro-Bold.ttf') format('truetype'),
+        url('FleischmanBTPro-Bold.svg#FleischmanBTPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fleischman BT Pro';
+    src: url('FleischmanBTPro-BoldItalic.eot');
+    src: url('FleischmanBTPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('FleischmanBTPro-BoldItalic.woff2') format('woff2'),
+        url('FleischmanBTPro-BoldItalic.woff') format('woff'),
+        url('FleischmanBTPro-BoldItalic.ttf') format('truetype'),
+        url('FleischmanBTPro-BoldItalic.svg#FleischmanBTPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fleischman BT Pro';
+    src: url('FleischmanBTPro-Italic.eot');
+    src: url('FleischmanBTPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FleischmanBTPro-Italic.woff2') format('woff2'),
+        url('FleischmanBTPro-Italic.woff') format('woff'),
+        url('FleischmanBTPro-Italic.ttf') format('truetype'),
+        url('FleischmanBTPro-Italic.svg#FleischmanBTPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Book.eot');
+    src: url('MaisonNeue-Book.eot?#iefix') format('embedded-opentype'),
+        url('MaisonNeue-Book.woff2') format('woff2'),
+        url('MaisonNeue-Book.woff') format('woff'),
+        url('MaisonNeue-Book.ttf') format('truetype'),
+        url('MaisonNeue-Book.svg#MaisonNeue-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('MaisonNeue-Demi.eot');
+    src: url('MaisonNeue-Demi.eot?#iefix') format('embedded-opentype'),
+        url('MaisonNeue-Demi.woff2') format('woff2'),
+        url('MaisonNeue-Demi.woff') format('woff'),
+        url('MaisonNeue-Demi.ttf') format('truetype'),
+        url('MaisonNeue-Demi.svg#MaisonNeue-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

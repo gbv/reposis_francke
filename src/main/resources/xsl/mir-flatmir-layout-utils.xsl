@@ -19,22 +19,33 @@
           </ul>
         </nav>
       </div>
-      <div id="project_logo_box">
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2))}"
-           class="text-decoration-none">
-          <span id="logo_mir">mir</span>
-          <span id="logo_modul">mycore</span>
-          <span id="logo_slogan">mods institutional repository</span>
+      <div class="project-logo__box">
+        <a
+          href="https://www.francke-halle.de"
+          target="_blank"
+          title="Zur Startseite der Franckeschen Stiftungen">
+          <img
+            src="{$WebApplicationBaseURL}/images/francke_logo_clean.svg"
+            class="project-logo"
+            alt="" />
         </a>
+        <div class="project-logo__slogan">
+          <a
+            href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2))}"
+            title="Zur Startseite"
+            class="project-logo__title">
+            DigiPub
+          </a>
+        </div>
       </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav bg-primary">
+    <div class="mir-main-nav bg-white">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
 
-          <div class="container-fluid">
+          <div class="w-100">
             <button
               class="navbar-toggler"
               type="button"
@@ -118,50 +129,34 @@
   <xsl:template name="mir.jumbotwo">
     <!-- show only on startpage -->
     <xsl:if test="//div/@class='jumbotwo'">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Mit MIR wird alles gut!</h1>
-          <h2>your repository - just out of the box</h2>
-        </div>
-      </div>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
-        <div class="col-4">
-          <h4>Über uns</h4>
+        <div class="col-auto me-5">
+          <h3>Kontakt</h3>
           <p>
-            MIR ein klassicher institutioneller Publikations- bzw.
-            Dokumentenserver. Es basiert auf dem Repository-Framework
-            MyCoRe und dem Metadata Object Description Schema (MODS).
-            <span class="read_more">
-              <a href="http://mycore.de/generated/mir/">Mehr erfahren ...</a>
-            </span>
+            Telefon: +49 345 21 27 400<br />
+            Fax: +49 345 21 27 433
+          </p>
+
+        </div>
+        <div class="col-auto">
+          <h3>Anschrift</h3>
+          <p>
+            Franckeplatz 1<br />
+            Haus 37<br />
+            06110 Halle
           </p>
         </div>
-        <div class="col-2">
-          <h4>Navigation</h4>
-          <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='brand']/*" />
-          </ul>
-        </div>
-        <div class="col-2">
-          <h4>Netzwerke</h4>
-          <ul class="social_links">
-            <li><a href="#"><button type="button" class="social_icons social_icon_fb"></button>Facebook</a></li>
-            <li><a href="#"><button type="button" class="social_icons social_icon_tw"></button>Twitter</a></li>
-            <li><a href="#"><button type="button" class="social_icons social_icon_gg"></button>Google+</a></li>
-          </ul>
-        </div>
-        <div class="col-2">
-          <h4>Layout based on</h4>
-          <ul class="internal_links">
-            <li><a href="{$WebApplicationBaseURL}mir-layout/template/flatmir.xml">flatmir</a></li>
-            <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
-            <li><a href="http://bootswatch.com/">Bootswatch</a></li>
-          </ul>
+        <div class="col">
+          <div class="d-flex justify-content-end">
+            <ul class="internal_links">
+              <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
+            </ul>
+          </div>
         </div>
       </div>
     </div>
