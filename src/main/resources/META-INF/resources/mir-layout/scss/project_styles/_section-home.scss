@@ -10,22 +10,10 @@
 
   .mir-start_page {
 
-    #page,
-    #main_content,
-    .project-center-content {
-      height:100%;
-    }
-
     .searchfield_box {
       visibility: hidden;
     }
 
-    .project-center-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
     .project-intro {
       display:flex;
       justify-content: flex-start;
@@ -60,6 +48,47 @@
         }
       }
 
+    }
+
+    .project-content {
+      display:flex;
+      justify-content: space-between;
+      font-family: $font-family-serif;
+      font-size: 1.125rem;
+      margin-top:3rem;
+      h2 {
+        margin-bottom: 1rem;
+      }
+      &__text {
+        padding-right: 5rem;
+      }
+      &__links {
+        flex: 0 0 auto;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        border: 1px solid $fgraylight;
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        li {
+          margin-bottom: 0.5rem;
+        }
+        a {
+          color: $fgraylink;
+          text-decoration: none;
+          &:hover,
+          &:focus,
+          &:active {
+            color: $fblueweb;
+            text-decoration: underline;
+          }
+          i {
+            margin-right: .5rem;
+          }
+        }
+      }
     }
   }
 
