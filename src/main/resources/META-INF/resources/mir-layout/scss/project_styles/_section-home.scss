@@ -8,7 +8,60 @@
 // XX-Large devices (larger desktops)
 // No media query since the xxl breakpoint has no upper bound on its width
 
+  .mir-start_page {
 
+    #page,
+    #main_content,
+    .project-center-content {
+      height:100%;
+    }
+
+    .searchfield_box {
+      visibility: hidden;
+    }
+
+    .project-center-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .project-intro {
+      display:flex;
+      justify-content: flex-start;
+      &__image {
+        flex: 0 0 40%;
+        z-index: 2;
+        div {
+          border: 1px solid white;
+        }
+        img {
+          width: 100%;
+          border: 1px solid $fblueweb;
+        }
+      }
+      &__text {
+        font-size: 1.3rem;
+        padding: 3rem;
+        padding-left: calc(10% + 3rem);
+        margin-left:-10%;
+        margin-top: 3rem;
+        flex: 0 0 70%;
+        font-family: $font-family-serif;
+        color: white;
+        background-color: $fblueweb;
+        z-index: 1;
+        h1 {
+          font-size: 2.5rem;
+          margin-bottom: 2rem;
+        }
+        form {
+          font-family: $font-family-sans-serif;
+        }
+      }
+
+    }
+  }
 
 // X-Large devices (large desktops, less than 1400px)
 @include media-breakpoint-down(xxl) {
