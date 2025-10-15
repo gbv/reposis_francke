@@ -84,39 +84,41 @@
               <!-- Check if 'initialCondQuery' exists and extract its value if it does -->
               <xsl:variable name="initialCondQuery" select="/response/lst[@name='responseHeader']/lst[@name='params']/str[@name='initialCondQuery']" />
 
-              <input
-                name="condQuery"
-                placeholder="{i18n:translate('mir.navsearch.placeholder')}"
-                class="form-control me-sm-2 search-query"
-                id="searchInput"
-                type="text"
-                aria-label="Search" />
+              <div class="input-group input-group-lg">
+                <input
+                  name="condQuery"
+                  placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+                  class="form-control search-query"
+                  id="searchInput"
+                  type="text"
+                  aria-label="Search" />
 
-              <input type="hidden" id="initialCondQueryMirFlatmirLayout" name="initialCondQuery">
-                <xsl:attribute name="value">
-                  <xsl:choose>
-                    <xsl:when test="$initialCondQuery">
-                      <xsl:value-of select="$initialCondQuery"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <xsl:value-of select="'*'"/>
-                    </xsl:otherwise>
-                  </xsl:choose>
-                </xsl:attribute>
-              </input>
+                <input type="hidden" id="initialCondQueryMirFlatmirLayout" name="initialCondQuery">
+                  <xsl:attribute name="value">
+                    <xsl:choose>
+                      <xsl:when test="$initialCondQuery">
+                        <xsl:value-of select="$initialCondQuery"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="'*'"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:attribute>
+                </input>
 
-              <xsl:choose>
-                <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
-                  <input name="owner" type="hidden" value="createdby:*" />
-                </xsl:when>
-                <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                  <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-                </xsl:when>
-              </xsl:choose>
+                <xsl:choose>
+                  <xsl:when test="contains($isSearchAllowedForCurrentUser, 'true')">
+                    <input name="owner" type="hidden" value="createdby:*" />
+                  </xsl:when>
+                  <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                    <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+                  </xsl:when>
+                </xsl:choose>
 
-              <button type="submit" class="btn btn-primary my-2 my-sm-0">
-                <i class="fas fa-search"></i>
-              </button>
+                <button type="submit" class="btn btn-outline-primary">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
             </form>
             </div>
           </div>
@@ -135,21 +137,19 @@
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
-        <div class="col-auto me-5">
-          <h3>Kontakt</h3>
-          <p>
-            Telefon: +49 345 21 27 400<br />
-            Fax: +49 345 21 27 433
-          </p>
-
-        </div>
         <div class="col-auto">
-          <h3>Anschrift</h3>
-          <p>
-            Franckeplatz 1<br />
-            Haus 37<br />
-            06110 Halle
-          </p>
+          <h3>Franckesche Stiftungen | Kontakt</h3>
+          <div class="d-flex justify-content-start">
+            <p class="me-5">
+              Franckeplatz 1<br />
+              Haus 37<br />
+              06110 Halle
+            </p>
+            <p>
+              Telefon: +49 345 21 27 400<br />
+              Fax: +49 345 21 27 433
+            </p>
+          </div>
         </div>
         <div class="col">
           <div class="d-flex justify-content-end">
