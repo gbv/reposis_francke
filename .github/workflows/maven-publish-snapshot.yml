@@ -8,6 +8,7 @@ on:
     branches:
       - 'main'
       - '2025.06.x'
+      - 'test_2025'
 
 jobs:
   build:
