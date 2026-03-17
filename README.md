@@ -1,5 +1,5 @@
 
-# francke
+# Franckesche Stiftungen
 
 ## Installation Instructions
 
