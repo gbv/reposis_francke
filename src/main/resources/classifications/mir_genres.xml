@@ -4,6 +4,20 @@
   <label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_genres" />
   <label xml:lang="de" text="Genre" description="Liste der Publikationsarten" />
   <categories>
+    <category ID="repertory">
+      <label xml:lang="de" text="Findbuch / Repertorium" />
+      <label xml:lang="en" text="Finding Aid / Repertory" />
+      <label xml:lang="it" text="Inventario / Repertorio" />
+      <label xml:lang="x-hosts" text="standalone"/>
+      <label xml:lang="x-mapping" text="marcgt:archival finding aid diniPublType:other diniPublType2022:Text schemaOrg:CreativeWork coarResourceTypes32:c_4d8j openAIRE400resourceTypeGeneral:other" />
+    </category>
+    <category ID="edition">
+      <label xml:lang="de" text="Edition"/>
+      <label xml:lang="en" text="Edition"/>
+      <label xml:lang="it" text="Edizione" />
+      <label xml:lang="x-hosts" text="standalone"/>
+      <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:SourceEdition"/>
+    </category>
     <category ID="article">
       <label xml:lang="it" text="Articolo / Saggio" />
       <label xml:lang="x-mapping" text="marcgt:article diniPublType:article diniPublType2022:Article schemaOrg:ScholarlyArticle coarResourceTypes32:c_6501 openAIRE400resourceTypeGeneral:literature" />
@@ -130,12 +144,12 @@
       <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report diniPublType2022:Report schemaOrg:Report coarResourceTypes32:c_93fc openAIRE400resourceTypeGeneral:other_research_product" />
       <label xml:lang="en" text="Report" />
       <label xml:lang="it" text="Rapporto" />
-      <category ID="research_results">
-        <label xml:lang="x-hosts" text="standalone" />
-        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report diniPublType2022:Report schemaOrg:Report coarResourceTypes32:c_18ws openAIRE400resourceTypeGeneral:other_research_product" />
-        <label xml:lang="en" text="Research Results" />
-        <label xml:lang="de" text="Forschungsergebnisse" />
-        <label xml:lang="it" text="Risultati della ricerca" />
+      <category ID="research_report">
+        <label xml:lang="de" text="Forschungsbericht" />
+        <label xml:lang="en" text="Research Report" />
+        <label xml:lang="it" text="Rapporto di ricerca" />
+        <label xml:lang="x-mapping" text="marcgt:reporting diniPublType:report diniPublType2022:ResearchReport schemaOrg:Report coarResourceTypes32:c_18ws openAIRE400resourceTypeGeneral:report" />
+        <label xml:lang="x-hosts" text="journal report standalone" />
       </category>
       <category ID="in_house">
         <label xml:lang="x-hosts" text="standalone" />
@@ -161,12 +175,12 @@
     </category>
     <category ID="teaching_material">
       <label xml:lang="de" text="Lehrmaterial" />
-      <label xml:lang="x-hosts" text="standalone lecture" />
+      <label xml:lang="x-hosts" text="standalone " />
       <label xml:lang="x-mapping" text="marcgt:instruction diniPublType:CourseMaterial diniPublType2022:CourseMaterial schemaOrg:LearningResource coarResourceTypes32:c_e059 openAIRE400resourceTypeGeneral:other_research_product" />
       <label xml:lang="en" text="Teaching Resource" />
       <label xml:lang="it" text="Materiale didattico" />
       <category ID="lecture_resource">
-        <label xml:lang="x-hosts" text="standalone lecture" />
+        <label xml:lang="x-hosts" text="standalone " />
         <label xml:lang="x-mapping" text="marcgt:instruction diniPublType:CourseMaterial diniPublType2022:CourseMaterial schemaOrg:LearningResource coarResourceTypes32:c_e059 openAIRE400resourceTypeGeneral:other_research_product" />
         <label xml:lang="de" text="Vorlesungsmaterial" />
         <label xml:lang="en" text="Lecture Resource" />
@@ -174,18 +188,18 @@
       </category>
       <category ID="course_resources">
         <label xml:lang="x-mapping" text="marcgt:instruction diniPublType:CourseMaterial diniPublType2022:CourseMaterial schemaOrg:LearningResource coarResourceTypes32:c_e059 openAIRE400resourceTypeGeneral:other_research_product" />
-        <label xml:lang="x-hosts" text="standalone lecture" />
+        <label xml:lang="x-hosts" text="standalone " />
         <label xml:lang="de" text="Kurs- und Seminarmaterial" />
         <label xml:lang="en" text="Course Resources" />
         <label xml:lang="it" text="Risorse del corso" />
       </category>
     </category>
-    <category ID="book">
-      <label xml:lang="it" text="Libro" />
-      <label xml:lang="de" text="Buch" />
-      <label xml:lang="x-mapping" text="marcgt:book diniPublType:book diniPublType2022:Book schemaOrg:Book coarResourceTypes32:c_2f33 openAIRE400resourceTypeGeneral:literature" />
+    <category ID="monograph">
+      <label xml:lang="de" text="Monografie" />
+      <label xml:lang="en" text="Monograph" />
+      <label xml:lang="it" text="Monografia" />
       <label xml:lang="x-hosts" text="series standalone" />
-      <label xml:lang="en" text="Book" />
+      <label xml:lang="x-mapping" text="marcgt:book diniPublType2022:Book schemaOrg:Book" />
     </category>
     <category ID="journal">
       <label xml:lang="x-hosts" text="standalone" />
@@ -196,6 +210,7 @@
       <category ID="issue">
         <label xml:lang="de" text="Zeitschriftenheft" />
         <label xml:lang="en" text="Journal Issue" />
+        <label xml:lang="it" text="Numero di rivista" />
         <label xml:lang="x-hosts" text="standalone journal series" />
         <label xml:lang="x-mapping" text="marcgt:issue diniPublType:PeriodicalPart diniPublType2022:PeriodicalPart schemaOrg:PublicationIssue coarResourceTypes32:QX5C-AR31 openAIRE400resourceTypeGeneral:literature" />
       </category>
@@ -204,7 +219,7 @@
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:Other schemaOrg:BookSeries coarResourceTypes32:QX5C-AR31? openAIRE400resourceTypeGeneral:literature" />
       <label xml:lang="en" text="Series" />
-      <label xml:lang="de" text="Serie" />
+      <label xml:lang="de" text="Schriftenreihe" />
       <label xml:lang="it" text="Collana" />
     </category>
     <category ID="blog">
@@ -216,10 +231,18 @@
     </category>
     <category ID="interview">
       <label xml:lang="it" text="Intervista" />
-      <label xml:lang="x-hosts" text="journal newspaper standalone" />
+      <label xml:lang="x-hosts" text="journal audio video article standalone" />
       <label xml:lang="x-mapping" text="marcgt:interview diniPublType:report diniPublType2022:Report schemaOrg:Report coarResourceTypes32:c_1843 openAIRE400resourceTypeGeneral:other_research_product" />
       <label xml:lang="en" text="Interview" />
       <label xml:lang="de" text="Interview" />
+    </category>
+    <category ID="introduction">
+      <label xml:lang="de" text="Einleitung"/>
+      <label xml:lang="x-hosts" text="journal collection festschrift proceedings issue"/>
+      <label xml:lang="x-mapping" text="marcgt:article diniPublType:bookPart"/>
+      <label xml:lang="en" text="Introduction"/>
+      <label xml:lang="it" text="Introduzione" />
+
     </category>
     <category ID="research_data">
       <label xml:lang="x-hosts" text="standalone" />
@@ -237,13 +260,13 @@
     </category>
     <category ID="audio">
       <label xml:lang="en" text="Audio file" />
-      <label xml:lang="x-hosts" text="standalone lecture" />
+      <label xml:lang="x-hosts" text="standalone " />
       <label xml:lang="x-mapping" text="marcgt:sound diniPublType:Sound diniPublType2022:Sound schemaOrg:MediaObject coarResourceTypes32:c_18cc openAIRE400resourceTypeGeneral:other_research_product" />
       <label xml:lang="de" text="Tondokument" />
       <label xml:lang="it" text="Registrazione audio" />
     </category>
     <category ID="video">
-      <label xml:lang="x-hosts" text="standalone lecture" />
+      <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="it" text="Film / Video" />
       <label xml:lang="de" text="Film / Video" />
       <label xml:lang="en" text="Movie / Video" />
@@ -251,3 +274,4 @@
     </category>
   </categories>
 </mycoreclass>
+
