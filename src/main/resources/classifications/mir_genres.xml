@@ -81,13 +81,6 @@
         <label xml:lang="it" text="Tesi di abilitazione alla libera docenza" />
         <label xml:lang="en" text="Habilitation" />
       </category>
-      <category ID="diploma_thesis">
-        <label xml:lang="it" text="Tesi di diploma" />
-        <label xml:lang="x-mapping" text="marcgt:thesis diniPublType:masterThesis diniPublType2022:MasterThesis schemaOrg:Thesis XMetaDissPlusThesisLevel:Diplom coarResourceTypes32:c_bdcc openAIRE400resourceTypeGeneral:literature" />
-        <label xml:lang="en" text="Diploma thesis" />
-        <label xml:lang="x-hosts" text="series standalone" />
-        <label xml:lang="de" text="Diplomarbeit" />
-      </category>
       <category ID="master_thesis">
         <label xml:lang="it" text="Tesi di specializzazione" />
         <label xml:lang="en" text="Master thesis" />
@@ -100,20 +93,6 @@
         <label xml:lang="x-mapping" text="marcgt:thesis diniPublType:bachelorThesis diniPublType2022:BachelorThesis schemaOrg:Thesis XMetaDissPlusThesisLevel:bachelor coarResourceTypes32:c_7a1f openAIRE400resourceTypeGeneral:literature" />
         <label xml:lang="de" text="Abschlussarbeit (Bachelor)" />
         <label xml:lang="en" text="Bachelor thesis" />
-        <label xml:lang="x-hosts" text="series standalone" />
-      </category>
-      <category ID="student_resarch_project">
-        <label xml:lang="it" text="Tesina" />
-        <label xml:lang="en" text="Student research project" />
-        <label xml:lang="x-mapping" text="marcgt:thesis diniPublType:StudyThesis diniPublType2022:StudyThesis schemaOrg:Thesis XMetaDissPlusThesisLevel:other coarResourceTypes32:c_46ec openAIRE400resourceTypeGeneral:literature" />
-        <label xml:lang="x-hosts" text="series standalone" />
-        <label xml:lang="de" text="Studienarbeit" />
-      </category>
-      <category ID="magister_thesis">
-        <label xml:lang="en" text="Magister thesis" />
-        <label xml:lang="x-mapping" text="marcgt:thesis diniPublType:masterThesis diniPublType2022:MasterThesis schemaOrg:Thesis XMetaDissPlusThesisLevel:M.A. coarResourceTypes32:c_bdcc openAIRE400resourceTypeGeneral:literature" />
-        <label xml:lang="de" text="Magisterarbeit" />
-        <label xml:lang="it" text="Magisterarbeit" />
         <label xml:lang="x-hosts" text="series standalone" />
       </category>
     </category>
@@ -144,13 +123,6 @@
         <label xml:lang="de" text="Lexikon" />
         <label xml:lang="en" text="Lexicon" />
       </category>
-    </category>
-    <category ID="grouping">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="de" text="Gruppierung" />
-      <label xml:lang="en" text="Grouping" />
-      <label xml:lang="it" text="Raggruppamento" />
-      <label xml:lang="x-mapping" text="coarResourceTypes32:RMP5-3GQ6 openAIRE400resourceTypeGeneral:other_research_product" />
     </category>
     <category ID="report">
       <label xml:lang="x-hosts" text="standalone" />
@@ -228,13 +200,6 @@
         <label xml:lang="x-mapping" text="marcgt:issue diniPublType:PeriodicalPart diniPublType2022:PeriodicalPart schemaOrg:PublicationIssue coarResourceTypes32:QX5C-AR31 openAIRE400resourceTypeGeneral:literature" />
       </category>
     </category>
-    <category ID="newspaper">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="it" text="Giornale" />
-      <label xml:lang="en" text="Newspaper" />
-      <label xml:lang="x-mapping" text="marcgt:newspaper diniPublType:Periodical diniPublType2022:Periodical schemaOrg:Periodical coarResourceTypes32:c_2fe3 openAIRE400resourceTypeGeneral:literature" />
-      <label xml:lang="de" text="Zeitung" />
-    </category>
     <category ID="series">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:Other schemaOrg:BookSeries coarResourceTypes32:QX5C-AR31? openAIRE400resourceTypeGeneral:literature" />
@@ -262,19 +227,6 @@
       <label xml:lang="en" text="Research Data" />
       <label xml:lang="x-mapping" text="marcgt:database diniPublType:ResearchData diniPublType2022:ResearchData schemaOrg:Dataset coarResourceTypes32:c_ddb1 openAIRE400resourceTypeGeneral:dataset" />
       <label xml:lang="it" text="Dati di ricerca" />
-      <category ID="software">
-        <label xml:lang="en" text="Software" />
-        <label xml:lang="x-mapping" text="marcgt:computer_program diniPublType:Software diniPublType2022:Software schemaOrg:SoftwareApplication coarResourceTypes32:c_5ce6 openAIRE400resourceTypeGeneral:software" />
-        <label xml:lang="x-hosts" text="standalone" />
-        <label xml:lang="de" text="Software" />
-      </category>
-    </category>
-    <category ID="patent">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="it" text="Brevetto" />
-      <label xml:lang="x-mapping" text="marcgt:patent diniPublType:patent diniPublType2022:Patent schemaOrg:CreativeWork coarResourceTypes32:c_15cd openAIRE400resourceTypeGeneral:other_research_product" />
-      <label xml:lang="de" text="Patent" />
-      <label xml:lang="en" text="Patent" />
     </category>
     <category ID="poster">
       <label xml:lang="x-mapping" text="marcgt:technical_drawing diniPublType:conferenceObject diniPublType2022:ConferencePoster schemaOrg:PresentationDigitalDocument coarResourceTypes32:c_6670 openAIRE400resourceTypeGeneral:other_research_product" />
@@ -296,27 +248,6 @@
       <label xml:lang="de" text="Film / Video" />
       <label xml:lang="en" text="Movie / Video" />
       <label xml:lang="x-mapping" text="marcgt:motion_picture diniPublType:MovingImage diniPublType2022:MovingImage schemaOrg:MediaObject coarResourceTypes32:c_12ce openAIRE400resourceTypeGeneral:other_research_product" />
-    </category>
-    <category ID="picture">
-      <label xml:lang="it" text="Immagine" />
-      <label xml:lang="x-hosts" text="standalone lecture" />
-      <label xml:lang="x-mapping" text="marcgt:picture diniPublType:StillImage diniPublType2022:StillImage schemaOrg:MediaObject coarResourceTypes32:c_ecc8 openAIRE400resourceTypeGeneral:other_research_product" />
-      <label xml:lang="de" text="Bild" />
-      <label xml:lang="en" text="Picture" />
-    </category>
-    <category ID="broadcasting">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="x-mapping" text="marcgt:videorecording diniPublType:report diniPublType2022:Report schemaOrg:MediaObject coarResourceTypes32:c_1843 openAIRE400resourceTypeGeneral:other_research_product" />
-      <label xml:lang="it" text="Programma televisivo o radiofonico" />
-      <label xml:lang="de" text="Sendung" />
-      <label xml:lang="en" text="Broadcasting" />
-    </category>
-    <category ID="lecture">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="de" text="Vorlesung" />
-      <label xml:lang="en" text="Lecture" />
-      <label xml:lang="x-mapping" text="marcgt:series diniPublType:lecture diniPublType2022:Lecture schemaOrg:Course coarResourceTypes32:c_8544 openAIRE400resourceTypeGeneral:other_research_product" />
-      <label xml:lang="it" text="Lezione" />
     </category>
   </categories>
 </mycoreclass>
