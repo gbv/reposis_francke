@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="fsh_themes">
+    <label xml:lang="de" text="Themen" description="Liste der Themen"/>
+    <label xml:lang="en" text="Themes" description="A list of themes"/>
+    <label xml:lang="x-uri" text="https://www.francke-halle.de/classifications/fsh_themes" />
+    <categories>
+        <category ID="book_and_library">
+            <label xml:lang="de" text="Buch und Bibliothek"/>
+            <label xml:lang="en" text="Book and Library"/>
+        </category>
+        <category ID="francke_foundations">
+            <label xml:lang="de" text="Franckeschen Stiftungen"/>
+            <label xml:lang="en" text="Francke Foundations"/>
+        </category>
+        <category ID="childrens_books">
+            <label xml:lang="de" text="Kinderbücher"/>
+            <label xml:lang="en" text="Children's books"/>
+        </category>
+        <category ID="art_and_natural_history_collection">
+            <label xml:lang="de" text="Kunst- und Naturalienkammer"/>
+            <label xml:lang="en" text="Art and Natural History Collection"/>
+        </category>
+        <category ID="literary_history_and_literary_studies">
+            <label xml:lang="de" text="Literaturgeschichte und -wissenschaft"/>
+            <label xml:lang="en" text="Literary History and Literary Studies"/>
+        </category>
+        <category ID="medicine">
+            <label xml:lang="de" text="Medizin"/>
+            <label xml:lang="en" text="Medicine"/>
+        </category>
+        <category ID="music_and_arts">
+            <label xml:lang="de" text="Musik und Kunst"/>
+            <label xml:lang="en" text="Music and Arts"/>
+        </category>
+        <category ID="pietism_and_theology">
+            <label xml:lang="de" text="Pietismus und Theologie"/>
+            <label xml:lang="en" text="Pietism and Theology"/>
+        </category>
+        <category ID="education">
+            <label xml:lang="de" text="Pädagogik"/>
+            <label xml:lang="en" text="Education"/>
+        </category>
+        <category ID="global_relations">
+            <label xml:lang="de" text="Weltweite Beziehungen"/>
+            <label xml:lang="en" text="Global Relations"/>
+        </category>
+        <category ID="architecture_and_architectural_history">
+            <label xml:lang="de" text="Architektur und Baugeschichte"/>
+            <label xml:lang="en" text="Architecture and Architectural History"/>
+        </category>
+    </categories>
+</mycoreclass>
