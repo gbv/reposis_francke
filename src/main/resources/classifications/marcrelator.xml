@@ -16,6 +16,10 @@
         <label xml:lang="de" text="Autor(in)"
           description="Eine Person oder Institution, die für den geistigen oder gestalterischen Inhalt hauptsächlich verantwortlich ist, insbesondere für gedruckten text. Dieser Ausdruck kann auch verwendet wenn mehr als eine Person betroffen ist." />
       </category>
+      <category ID="cng">
+        <label xml:lang="de" text="Kamera und Bildgestalter" description="Eine Person, die für die Aufnahmen eines Films verantwortlich ist, die technischen Aspekte der Beleuchtung und der Aufnahme von Szenen plant und den Regisseur häufig bei der Wahl der Kamerawinkel, der Kameraeinstellungen und der Lichtstimmung unterstützt. Er oder sie kann auch die Weiterverarbeitung des gefilmten Materials bis zur Fertigstellung des Arbeitskopie überwachen. Der Kameramann wird auch als „Director of Photography“ bezeichnet." />
+        <label xml:lang="en" text="Cinematographer" description="A person in charge of photographing a motion picture, who plans the technical aspects of lighting and photographing of scenes, and often assists the director in the choice of angles, camera setups, and lighting moods. He or she may also supervise the further processing of filmed material up to the completion of the work print. Cinematographer is also referred to as director of photography" />
+      </category>
       <category ID="tch">
         <label xml:lang="en" text="Teacher"
           description="Use for a person who, in the context of a resource, gives instruction in an intellectual subject or demonstrates while teaching physical skills. " />
@@ -43,6 +47,10 @@
       <category ID="isb">
         <label xml:lang="de" text="Herausgebendes Organ" description="Eine Person, Familie oder Organisation, die ein Werk herausgeben, z.B. ein offizielles Organ einer Körperschaft." />
         <label xml:lang="en" text="Issuing body" description="A person, family or organization issuing a work, such as an official organ of the body" />
+      </category>
+      <category ID="rcd">
+        <label xml:lang="de" text="Tonaufnahmeleitung" description="Eine Person oder Organisation, die während einer Aufnahmesession ein Aufnahmegerät verwendet, um Ton- und/oder Bildaufnahmen zu machen, einschließlich Feldaufnahmen von Naturgeräuschen, folkloristischen Veranstaltungen, Musik usw." />
+        <label xml:lang="en" text="Recordist" description="A person or organization who uses a recording device to capture sounds and/or video during a recording session, including field recordings of natural sounds, folkloric events, music, etc." />
       </category>
     </category>
     <category ID="pbl">
@@ -84,6 +92,19 @@
                description="Use for a person who makes manuscript annotations on an item." />
         <label xml:lang="de" text="Kommentator(in)"
                description="Eine Person oder Institution, die Kommentare zu einem Werk anbringt." />
+      </category>
+      <category ID="edm">
+        <label xml:lang="en" text="Bearbeiter von Bewegtbildmaterial"
+               description="A person, family, or organization responsible for assembling, arranging, and trimming film, video, or other moving image formats, including both visual and audio aspects." />
+        <label xml:lang="de" text="Editor of moving image work"
+               description="Eine Person, Familie oder Organisation, die für das Zusammenstellen, Bearbeiten und Schneiden von Filmen, Videos oder anderen Bewegtbildformaten zuständig ist, einschließlich der visuellen und akustischen Aspekte." />
+      </category>
+
+      <category ID="act">
+        <label xml:lang="de" text="Darsteller(in)"
+               description="Ein Darsteller, der zur Darbietung eines Werks beiträgt, indem er oder sie als Darsteller oder Mitwirkender in einer musikalischen oder dramatischen Aufführung usw. auftritt." />
+        <label xml:lang="en" text="Actor"
+               description="A performer contributing to an expression of a work by acting as a cast member or player in a musical or dramatic presentation, etc." />
       </category>
       <category ID="col">
         <label xml:lang="en" text="Collector"
