@@ -10,34 +10,36 @@
 
   <xsl:template name="mir.navigation">
 
-    <div id="header_box" class="clearfix container">
-      <div id="options_nav_box" class="mir-prop-nav">
-        <nav>
-          <ul class="navbar-nav ms-auto flex-row">
-            <xsl:call-template name="mir.loginMenu" />
-            <xsl:call-template name="mir.languageMenu" />
-          </ul>
-        </nav>
-      </div>
-      <div class="project-logo__box">
+    <div id="header_box" class="clearfix container project-logo">
+      <div class="project-logo__home">
+        <a
+          href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2))}"
+          title="Zur Startseite"
+          class="project-logo__title">
+          DigiPub
+        </a>
+      </div>      
+      <div class="project-logo__francke">
         <a
           href="https://www.francke-halle.de"
           target="_blank"
           title="Zur Startseite der Franckeschen Stiftungen">
           <img
-            src="{$WebApplicationBaseURL}/images/francke_logo_clean.svg"
-            class="project-logo"
+            src="{$WebApplicationBaseURL}/images/Francke_Logo_rgb.svg"
             alt="" />
         </a>
-        <div class="project-logo__slogan">
-          <a
-            href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2))}"
-            title="Zur Startseite"
-            class="project-logo__title">
-            DigiPub
-          </a>
+      </div>
+      <div class="project-logo__options">
+        <div id="options_nav_box" class="mir-prop-nav">
+          <nav>
+            <ul class="navbar-nav ms-auto flex-row">
+              <xsl:call-template name="mir.loginMenu" />
+              <xsl:call-template name="mir.languageMenu" />
+            </ul>
+          </nav>
         </div>
       </div>
+
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

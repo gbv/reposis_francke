@@ -9,14 +9,14 @@
 // No media query since the xxl breakpoint has no upper bound on its width
 
   .flatmir-footer {
-    color: black;
-    background-color: $fbluelight;
+    color: white;
+    background-color: $fgray;
     padding-top: 1.5rem;
     border-top: none;
     a {
-      color: black;
+      color: white;
       &:hover {
-        color: $fblueweb;
+        color: white;
       }
     }
     h3 {
