@@ -11,7 +11,9 @@
     -->
   </xed:modify>
 
-
+<xed:modify ref="genres.interview">
+<xed:include ref="type.of.resource" after="language"/>
+</xed:modify>
   <!-- ========== validation ========== -->
 
 
