@@ -111,7 +111,7 @@
       </category>
     </category>
     <category ID="collection">
-      <label xml:lang="de" text="Sammelwerk" />
+      <label xml:lang="de" text="Sammelband" />
       <label xml:lang="x-mapping" text="marcgt:series diniPublType:other diniPublType2022:EditedCollection schemaOrg:Book coarResourceTypes32:c_2f33 openAIRE400resourceTypeGeneral:literature" />
       <label xml:lang="it" text="Compilazione" />
       <label xml:lang="x-hosts" text="series standalone" />
@@ -257,20 +257,6 @@
       <label xml:lang="it" text="Locandina" />
       <label xml:lang="de" text="Poster" />
       <label xml:lang="x-hosts" text="proceedings standalone" />
-    </category>
-    <category ID="audio">
-      <label xml:lang="en" text="Audio file" />
-      <label xml:lang="x-hosts" text="standalone " />
-      <label xml:lang="x-mapping" text="marcgt:sound diniPublType:Sound diniPublType2022:Sound schemaOrg:MediaObject coarResourceTypes32:c_18cc openAIRE400resourceTypeGeneral:other_research_product" />
-      <label xml:lang="de" text="Tondokument" />
-      <label xml:lang="it" text="Registrazione audio" />
-    </category>
-    <category ID="video">
-      <label xml:lang="x-hosts" text="standalone" />
-      <label xml:lang="it" text="Film / Video" />
-      <label xml:lang="de" text="Film / Video" />
-      <label xml:lang="en" text="Movie / Video" />
-      <label xml:lang="x-mapping" text="marcgt:motion_picture diniPublType:MovingImage diniPublType2022:MovingImage schemaOrg:MediaObject coarResourceTypes32:c_12ce openAIRE400resourceTypeGeneral:other_research_product" />
     </category>
   </categories>
 </mycoreclass>
