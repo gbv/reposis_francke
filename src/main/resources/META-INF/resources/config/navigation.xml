@@ -57,10 +57,6 @@
     <!-- search menu  -->
     <label xml:lang="de">Blättern</label>
     <label xml:lang="en">Browse</label>
-    <item href="/content/browse/institutes.xml" type="intern">
-      <label xml:lang="de">Einrichtungen</label>
-      <label xml:lang="en">Institutions</label>
-    </item>
     <item href="/content/browse/genres.xml" type="intern">
       <label xml:lang="de">Dokumenttypen</label>
       <label xml:lang="en">Genres</label>
@@ -70,8 +66,8 @@
       <label xml:lang="en">SNDB</label>
     </item>
     <item href="/servlets/MCRActionMappingServlet/personindex/browse" type="extern">
-      <label xml:lang="de">Personen</label>
-      <label xml:lang="en">Persons</label>
+      <label xml:lang="de">Namen</label>
+      <label xml:lang="en">Names</label>
     </item>
   </menu>
   <menu id="publish" dir="/content/publish">

@@ -3,6 +3,7 @@
 <xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
 
     <!-- ========== extend editor-genres.xed ========== -->
+
     <xed:modify ref="admin.fields">
         <xed:remove ref="institutes"/>
         <xed:include ref="fsh.themes" after="genre"/>
@@ -15,7 +16,11 @@
     </xed:modify>
 
 
-    <!-- ========== validation ========== -->
+<xed:modify ref="genres.interview">
+<xed:include ref="type.of.resource" after="language"/>
+</xed:modify>
+  <!-- ========== validation ========== -->
+
 
 
     <!-- ========== project specific templates ========== -->
