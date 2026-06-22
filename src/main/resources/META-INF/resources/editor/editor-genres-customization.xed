@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<xed:template xmlns:xed="http://www.mycore.de/xeditor">
+  <xed:template id="institutes"/>
+
+<xed:template id="genres.research_report">
+<xed:include ref="genres.report.common"/>
+</xed:template>
+
+
+  <xed:template id="genres.repertory">
+<xed:include ref="genres.report.common"/>
+</xed:template>
+
+  <xed:template id="genres.introduction">
+    <xed:include ref="genres.publication.common" />
+  </xed:template>
+  <xed:template id="genres.edition">
+    <xed:include ref="genres.report.common"/>
+  </xed:template>
+
+
+</xed:template>
