@@ -3,7 +3,11 @@
 <xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
 
     <!-- ========== extend editor-genres.xed ========== -->
+
     <xed:modify ref="admin.fields">
+        <xed:remove ref="institutes"/>
+        <xed:include ref="fsh.themes" after="genre"/>
+        <xed:include ref="fsh.publication.series" after="fsh.themes"/>
         <!-- for details see
         https://mycore.atlassian.net/wiki/download/attachments/214695955/MyCoRe%20XEditor%20Erweiterungen%202018-11-14.pdf?api=v2
         https://mycore.atlassian.net/wiki/download/attachments/214695955/MCR-Workshop2018_Rochowski_XEditor_Erweiterungen_Praxis.pdf?api=v2
@@ -12,11 +16,62 @@
     </xed:modify>
 
 
-    <!-- ========== validation ========== -->
+<xed:modify ref="genres.interview">
+<xed:include ref="type.of.resource" after="language"/>
+</xed:modify>
+  <!-- ========== validation ========== -->
+
 
 
     <!-- ========== project specific templates ========== -->
-
+    <xed:template id="fsh.themes">
+        <div class="mir-form-group row">
+            <label class="col-md-3 col-form-label text-end form-label">
+                <xed:output i18n="component.mods.metaData.dictionary.fsh.themes"/>:
+            </label>
+            <xed:bind
+              xpath="mods:classification[@authorityURI='https://www.francke-halle.de/classifications/fsh_themes']/@displayLabel"
+              set="fsh.themes"/>
+            <xed:bind
+              xpath="mods:classification[@authorityURI='https://www.francke-halle.de/classifications/fsh_themes']/@valueURIxEditor">
+                <div class="col-md-6">
+                    <div class="controls">
+                        <select class="form-control form-control-inline form-select">
+                            <option value="">
+                                <xed:output i18n="mir.select.optional"/>
+                            </option>
+                            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:fsh_themes"/>
+                        </select>
+                    </div>
+                </div>
+                <mir:help-pmud help-text="{i18n:fsh.help.fsh.themes}" pmud="false"/>
+            </xed:bind>
+        </div>
+    </xed:template>
+    <xed:template id="fsh.publication.series">
+        <div class="mir-form-group row">
+            <label class="col-md-3 col-form-label text-end form-label">
+                <xed:output i18n="component.mods.metaData.dictionary.fsh.publication.series"/>:
+            </label>
+            <xed:bind
+              xpath="mods:classification[@authorityURI='https://www.francke-halle.de/classifications/fsh_publication_series']/@displayLabel"
+              set="fsh.publication.series"/>
+            <xed:bind
+              xpath="mods:classification[@authorityURI='https://www.francke-halle.de/classifications/fsh_publication_series']/@valueURIxEditor">
+                <div class="col-md-6">
+                    <div class="controls">
+                        <select class="form-control form-control-inline form-select">
+                            <option value="">
+                                <xed:output i18n="mir.select.optional"/>
+                            </option>
+                            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:fsh_publication_series"/>
+                        </select>
+                    </div>
+                </div>
+                <mir:help-pmud help-text="{i18n:fsh.help.fsh.publication.series}" pmud="false"/>
+            </xed:bind>
+        </div>
+    </xed:template>
 
 </xed:template>
 
