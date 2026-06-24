@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "add-field": {
+      "name": "fsh.themes",
+      "type": "string",
+      "indexed": true
+    }
+  },
+  {
+    "add-field": {
+      "name": "fsh.publication.series",
+      "type": "string",
+      "indexed": true
+    }
+  }
+]

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="fsh_publication_series">
+    <label xml:lang="de" text="Publikationsreihen" description="Liste der Publikationsreihen"/>
+    <label xml:lang="en" text="Publication series" description="A list of publication series"/>
+    <label xml:lang="x-uri" text="https://www.francke-halle.de/classifications/fsh_publication_series" />
+    <categories>
+        <category ID="individual_publications">
+            <label xml:lang="de" text="Einzelveröffentlichungen"/>
+            <label xml:lang="en" text="Individual Publications"/>
+        </category>
+        <category ID="halle_studies">
+            <label xml:lang="de" text="Hallesche Forschungen"/>
+            <label xml:lang="en" text="Halle Studies"/>
+        </category>
+        <category ID="halle_source_publications_and_repertories">
+            <label xml:lang="de" text="Hallesche Quellenpublikationen und Repertorien"/>
+            <label xml:lang="en" text="Halle Source Publications and Repertories"/>
+        </category>
+        <category ID="catalogs_of_the_francke_foundations">
+            <label xml:lang="de" text="Kataloge der Franckeschen Stiftungen"/>
+            <label xml:lang="en" text="Catalogs of the Francke Foundations"/>
+        </category>
+        <category ID="short_series_of_the_francke_foundations">
+            <label xml:lang="de" text="Kleine Schriftenreihe der Franckeschen Stiftungen"/>
+            <label xml:lang="en" text="Short Series of the Francke Foundations"/>
+        </category>
+        <category ID="short_texts_of_the_francke_foundations">
+            <label xml:lang="de" text="Kleine Texte der Franckeschen Stiftungen"/>
+            <label xml:lang="en" text="Short Texts of the Francke Foundations"/>
+        </category>
+        <category ID="new_halle_reports">
+            <label xml:lang="de" text="Neue Hallesche Berichte"/>
+            <label xml:lang="en" text="New Halle Reports"/>
+        </category>
+    </categories>
+</mycoreclass>
