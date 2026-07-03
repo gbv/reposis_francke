@@ -18,7 +18,7 @@
           class="project-logo__title">
           DigiPub
         </a>
-      </div>      
+      </div>
       <div class="project-logo__francke">
         <a
           href="https://www.francke-halle.de"
@@ -52,7 +52,7 @@
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-target="#mir-main-nav-collapse-box"
+              data-bs-target="#mir-main-nav-collapse-box"
               aria-controls="mir-main-nav-collapse-box"
               aria-expanded="false"
               aria-label="Toggle navigation">
