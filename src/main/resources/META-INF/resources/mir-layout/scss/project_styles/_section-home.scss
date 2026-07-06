@@ -109,6 +109,31 @@
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(md) {
   // sm and lower
+
+  .mir-start_page {
+    .project-intro {
+      flex-wrap: wrap;
+      &__image {
+        flex: 0 0 100%;
+      }
+      &__text {
+        flex: 0 0 100%;
+        padding-left: 3rem;
+        margin-top: 0;
+        margin-left: 0;
+      }
+    }
+    .project-content {
+      flex-wrap: wrap;
+      &__text {
+        flex: 0 0 100%;
+        padding-right: 0rem;
+      }
+      &__links {
+        flex: 0 0 100%;
+      }
+    }
+  }
 }
 
 // X-Small devices (portrait phones, less than 576px)
